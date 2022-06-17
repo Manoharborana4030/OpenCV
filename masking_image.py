@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img=cv2.imread('pic.jpg')
-img2=cv2.imread('two.png')
+img=cv2.imread('OpenCV\\OpenCV\\pic.jpg')
+img2=cv2.imread('OpenCV\\OpenCV\\two.png')
 # img=cv2.resize(img,(720,500))
 print(img.shape)
 print(img.dtype)
